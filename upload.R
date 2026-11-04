@@ -170,7 +170,7 @@ logit_to_prob <- function(scores) {
   return(p)
 }
 
-all_merged <- read.csv("C:/Users/lenovo/Desktop/Data.csv", stringsAsFactors = FALSE)
+all_merged <- read.csv("Data.csv", stringsAsFactors = FALSE)
 
 feature_cols <- grep("^X[0-9]+$", colnames(all_merged), value = TRUE)
 
